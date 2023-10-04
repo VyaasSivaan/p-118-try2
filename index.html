@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Draw</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Quick Draw</h1>
+    </header>
+    <div class="container">
+        <div class="image-container">
+            <img src="doodle.jpg" alt="Image to Draw">
+        </div>
+        <canvas id="drawingCanvas" width="170" height="170"></canvas>
+        <div class="timer">Time Left: <span id="timerValue">60</span> seconds</div>
+        <button id="startButton">Start Drawing</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
